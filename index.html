@@ -1,136 +1,144 @@
 <!DOCTYPE html>
 <html lang='ru'>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class='main-header'>
-      <a class='main-header-logo' href='#'>
-        <img src='http://placehold.it/150x100' width='150' height='100' alt='Логотип'>
+      <a class='main-header-logo'>
+        <img src='img/logo.jpg' width='138' height='70' alt='Логотип'>
       </a>
       <nav class='main-navigation'>  
         <ul class='site-navigation'>
           <li><a href='info.html'>Информация</a></li>
           <li><a href='media.html'>Фото и видео</a></li>
           <li><a href='statemap.html'>Карта штата</a></li>
-          <li><a class='hotels-current'>Гостиницы</a></li>
+          <li><a href='hotels.html'>Гостиницы</a></li>
         </ul>
       </nav>
     </header>
 
     <main class='container'>
 
-      <section class='filter'>
-          <div class='infrastructure'>
-            <h3>Инфраструктура:</h3>
-            <!-- Форма -->
-          </div>
-
-          <div class='type-of-hotel'>
-            <h3>Тип жилья:</h3>
-            <!-- Форма -->
-          </div>
-
-          <div class='price'>
-            <h3>Стоимость в сутки:</h3>
-            <!-- Форма -->
-            <a class='price-button' href="#">Показать</a>
-          </div>
-      </section>
-
-      <div class='result'>
-        <p>
-          <span class='number-of-hotels'>Найдено:3</span>
-          <span class='sorting'>Сортировка:</span>
-        </p>
-        <ul class='parameter'>
-          <li><a class='result-current'>По цене</a></li>
-          <li><a href='#'>По типу</a></li>
-          <li><a href='#'>По рейтингу</a></li>
-        </ul>
-        <ul>
-          <li><a class='result-up-button current'>up</a></li>
-          <li><a class='result-down-button' href='#'>down</a></li>
-        </ul>
+      <div class='invite'>
+        <h1>Sedona</h1>
+        <p class='invite-wel'>Welcome</p>
+        <p class='invite-gor'>To the gorgeous</p>
+        <p class='invite-why'>"Because the Grand Canyon sucks!"</p>
       </div>
 
-      <section class='hotels'>
-        <h2 class='visually-hidden'>Список гостиниц</h2>
-        <ul class='hotels-list'>
-          <li class='hotels-item'>
-            <a href='#'>
-                <h3>Amara Resort&Spa</h3>
-                <img src='http://placehold.it/150x100' width='150' height='100' alt='Amara Resort'>
-            </a>
-            <p class='hotels-details'>
-              <span class='hotels-type'>Гостиница</span>
-              <span class='hotels-price'>От 4000р.</span>
+      <section class='features'>
+        <h2 class='visually-hidden'>Преимущества</h2>
+        <p class='features-about'>
+          СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!
+        </p>
+        <p class='features-compare'>
+          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+        </p>
+        <ul class='features-list'>
+          <li>
+            <h3>Настоящий городок</h3>
+            <span class='feature-number-blue'>№1</span>
+            <p class='feature-description'>
+              СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
             </p>
-            <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
+            <img src='img/city.jpg' width='800' height='401' alt='Жизнь в Седоне'> 
+          </li>
+          <li class='city-feature'>
+            <div class='housing'>
+              <img src='img/icon-1.svg' width='74' height='70' alt='Жилье'>
+              <h3>Жилье</h3>
+              <p>
+                Рекомендуем пожить в настоящем мотеле, все как в кино!
+              </p>
+            </div>
+            <div class='food'>
+              <img src='img/icon-3.svg' width='74' height='70' alt='Еда'>
+              <h3>Еда</h3>
+              <p>
+                Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
+              </p>  
+            </div>
+            <div class='souvenirs'>
+              <img src='img/icon-2.svg' width='74' height='70' alt='Сувениры'>
+              <h3>Сувениры</h3>
+              <p>
+                Не только китайского, но и местного производства!
+              </p>  
+            </div>
+          </li>
+          <li>
+            <h3>Там есть мост дъявола</h3>
+            <span class='feature-number-blue'>№2</span>
+            <p class='feature-description'>
+              Да, по нему можно пройти! Если конечно вы осмелитесь
             </p>
-            <p class='hotels-rating-item'>
-              <span class='hotels-rating-stars'>*****</span>
-              <span class='hotels-rating-number'>Рейтинг:8,5</span>
+            <img src='img/bridge.jpg' width='800' height='400' alt='Мост Дъявола'>
+          </li>
+          <li>
+            <h3>Небольшая площадь</h3>
+            <span class='feature-number'>№3</span>
+            <p>
+              Все достопримечательности находятся очень близко
             </p>
           </li>
-          <li class='hotels-item'>
-            <a href='#'>
-              <h3>Desert Quail Inn</h3>
-              <img src='http://placehold.it/150x100' width='150' height='100' alt='Desert Quail'>
-            </a>
-            <p class='hotels-details'>
-              <span class='hotels-type'>Мотель</span>
-              <span class='hotels-price'>От 3000р.</span>
-            </p>
-            <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
-            </p>
-            <p class='hotels-rating-item'>
-              <span class='hotels-rating-stars'>***</span>
-              <span class='hotels-rating-number'>Рейтинг:8,9</span>
+          <li>
+            <h3>Красивая дорога</h3>
+            <span class='feature-number'>№4</span>
+            <p>
+              ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!
             </p>
           </li>
-          <li class='hotels-item'>
-            <a href='#'>
-              <h3>Villas At Poco Diablo</h3>
-              <img src='http://placehold.it/150x100' width='150' height='100' alt='Poco Diablo'>
-            </a>
-            <p class='hotels-details'>
-              <span class='hotels-type'>Аппартаменты</span>
-              <span class='hotels-price'>От 2000р.</span>
-            </p>
-            <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
-            </p>
-            <p class='hotels-rating-item'>
-              <span class='hotels-rating-stars'>**</span>
-              <span class='hotels-rating-number'>Рейтинг:9,2</span>
+          <li>
+            <h3>Мало туристов</h3>
+            <span class='feature-number'>№5</span>
+            <p>
+              Большинство едет в гранд каньон и толпится там
             </p>
           </li>
-        </ul>
+        </ul>   
+      </section>
+
+      <section class='reservation'>
+        <h2 class='visually-hidden'>Бронирование</h2>
+        <b>Заинтересовались?</b>
+        <p>
+          Укажите предполагаемые даты поездки, 
+        и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
+        <a class='button' href='#'>Поиск гостиницы в Седоне</a>
+      </section>
+
+      <section class='map'>
+        <h2 class='visually-hidden'>Карта</h2>
+        <img src='img/map.png' width='1200' height='593' alt='Карта'>
       </section>
     </main>
 
-    <footer class='main-footer'>
+    <footer>
       <a href='#'>
         <span class='tag'>#VISITSEDONA</span>
       </a>
       <ul class='social'>
-        <li><a class='social-button-tw' href='#'>Twitter</a></li>
-        <li><a class='social-button-fb' href='#'>Facebook</a></li>
-        <li><a class='social-button-yt' href='#'>Youtube</a></li>
+        <li><a class='social-button-tw' href='#'><img src="img/icon-tw.svg" width='17' height='15' alt='Twitter'></a></li>
+        <li><a class='social-button-fb' href='#'><img src="img/icon-fb.svg" width='17' height='15' alt='Facebook'></a></li>
+        <li><a class='social-button-yt' href='#'><img src="img/icon-youtube.svg" width='17' height='15' alt='youtube'></a></li>
       </ul>
       <p class='footer-copyright'>
         <span class='website'>Website by</span>
         <a href='https://htmlacademy.ru/'>
-          <img src='http://placehold.it/150x100' width='150' height='100' alt='Логотип htmlacademy'>
+          <img src='img/icon-html-logo.svg' width='115' height='41' alt='Логотип htmlacademy'>
         </a>
       </p>
     </footer>
+
+    <section class='modal-search'>
+      <h2 class='visually-hidden'>Поиск гостиницы</h2>
+      <!-- Формы -->
+      <a class='search-button' href='#'>Найти</a>
+      <span class='modal-close'>X</span>
+    </section>
   </body>
-</html> 
+</html>
