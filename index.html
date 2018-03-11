@@ -135,24 +135,25 @@
     </footer>
 
     <section class='modal-search'>
+      <h2 class='vilually-hidden'>Фильтры поиска</h2>
       <fieldset class='modal-search-parameters'>
         <legend class='visually-hidden'>Поиск гостиницы</legend>
         <form class='modal-search-form' action='https://echo.htmlacademy.ru' method='post'>
           <p>
             <label for='in'>Дата въезда:</label>
-            <input type='date' id='in' name='date-in' value='' placeholder='24 Апреля 2017'>
+            <input type='date' id='in' name='date-in' value='2017-04-24'>
           </p>
           <p>
             <label for='out'>Дата выезда:</label>
-            <input type='date' id='out' name='date-out' value='' placeholder='4 Июля 2017'>
+            <input type='date' id='out' name='date-out' value='2017-07-04'>
           </p>
           <p>
             <label for='adults'>Взрослые:</label>
-            <input type='number' id='adults' name='adults' value='' placeholder='2'>
+            <input type='number' id='adults' name='adults' value='2' placeholder=''>
           </p>
           <p>
             <label for='kids'>Дети:</label>
-            <input type='number' id='kids' name='kids' value='' placeholder='0'>
+            <input type='number' id='kids' name='kids' value='0' placeholder=''>
           </p>
           <button class='modal-search-button' type='submit'>Найти</button>
         </form>
