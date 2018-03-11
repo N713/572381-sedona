@@ -22,35 +22,69 @@
 
     <main class='container'>
 
-      <section class='filter'>
-          <div class='infrastructure'>
-            <h3>Инфраструктура:</h3>
-            <!-- Форма -->
-          </div>
-
-          <div class='type-of-hotel'>
-            <h3>Тип жилья:</h3>
-            <!-- Форма -->
-          </div>
-
-          <div class='price'>
-            <h3>Стоимость в сутки:</h3>
-            <!-- Форма -->
-            <a class='price-button' href="#">Показать</a>
-          </div>
+      <section class='filters'>
+        <form class='filter' method='get' action='https://echo.htmlacademy.ru'>
+          <h2 class='visually-hidden'>Фильтры</h2>
+          <fieldset class='filter-structure'>
+            <legend>Инфраструктура:</legend>
+              <ul>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='pool' id='pool-option' checked>
+                  <label for='pool-option'>Бассейн</label>
+                </li>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='parking' id='parking-option'>
+                  <label for='parking-option'>Парковка</label>
+                </li>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='wi-fi' id='wi-fi-option'>
+                  <label for='wi-fi-option'>Wi-Fi</label>
+                </li>
+              </ul>
+          </fieldset>
+          <fieldset class='filter-home'>
+            <legend>Тип жилья:</legend>
+              <ul>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='hotel-option' id='hotel' checked>
+                  <label for='hotel'>Гостиница</label>
+                </li>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='motel-option' id='motel' checked>
+                  <label for='motel'>Мотель</label>
+                </li>
+                <li class='filter-option'>
+                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='appartements-option' id='appartements' checked>
+                  <label for='appartements'>Аппартаменты</label>
+                </li>
+              </ul>
+          </fieldset>
+          <fieldset class='filter-price'>
+            <label for='cost-start'>От:</label>
+            <input type='number' name='cost-per-day-start' id='cost-start' value='0' palceholder=''>
+            <label for='cost-finish'>До:</label>
+            <input type='number' name='cost-per-day-finish' id='cost-finish' value='3000' placeholder=''>
+            <input type='range' name='cost-scale' id='cost-scale' min='0' max='4000' value='3000'>
+          </fieldset>
+          <button class='price-button' type='submit'>Показать</button>
+        </form>
       </section>
 
       <div class='result'>
           <span class='number-of-hotels'>Найдено:3</span>
           <span class='sorting'>Сортировка:</span>
           <ul class='parameter'>
-            <li><a class='result-current'>По цене</a></li>
-            <li><a href='#'>По типу</a></li>
-            <li><a href='#'>По рейтингу</a></li>
+            <li><button class='parameter-button'>По цене</button></li>
+            <li><button class='parameter-button'>По типу</button></li>
+            <li><button class='parameter-button'>По рейтингу</button></li>
           </ul>
           <ul>
-            <li><a class='result-up-button current'>up</a></li>
-            <li><a class='result-down-button' href='#'>down</a></li>
+            <li>
+              <button class='result-up-button'><img src='img/icon-up-dir.svg'><span class='visually-hidden'>По возрастанию</span></button>
+            </li>
+            <li>
+              <button class='result-down-button'><img src='img/icon-down-dir.svg'><span class='visually-hidden'>По убыванию</span></button>
+            </li>
           </ul>
       </div>
 
@@ -59,16 +93,16 @@
         <ul class='hotels-list'>
           <li class='hotels-item'>
             <a href='#'>
-                <h3>Amara Resort&Spa</h3>
-                <img src='img/Amara-hotel.jpg' width='135' height='90' alt='Amara Resort'>
+              <h3>Amara Resort&Spa</h3>
+              <img src='img/Amara-hotel.jpg' width='135' height='90' alt='Amara Resort'>
             </a>
             <p class='hotels-details'>
               <span class='hotels-type'>Гостиница</span>
               <span class='hotels-price'>От 4000р.</span>
             </p>
             <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
+              <button class='more-button' href="#">Подробнее</button>
+              <a class='book-link' href="#">Забронировать</a>
             </p>
             <p class='hotels-rating-item'>
               <span class='hotels-rating-stars'>*****</span>
@@ -85,8 +119,8 @@
               <span class='hotels-price'>От 3000р.</span>
             </p>
             <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
+              <button class='more-button' href="#">Подробнее</button>
+              <a class='book-link' href="#">Забронировать</a>
             </p>
             <p class='hotels-rating-item'>
               <span class='hotels-rating-stars'>***</span>
@@ -103,8 +137,8 @@
               <span class='hotels-price'>От 2000р.</span>
             </p>
             <p class='hotels-buttons'>
-              <a class='more-button' href="#">Подробнее</a>
-              <a class='book-button' href="#">Забронировать</a>
+              <button class='more-button' href="#">Подробнее</button>
+              <a class='book-link' href="#">Забронировать</a>
             </p>
             <p class='hotels-rating-item'>
               <span class='hotels-rating-stars'>**</span>
