@@ -1,4 +1,266 @@
 body {
-	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #ffffff;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.site-navigation,
+.features-list,
+.social {
+	list-style: none;
+}
+
+.site-navigation a,
+.social a,
+.sedona-tag {
+	color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #81b3d2;
+}
+
+
+.features-about {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+
+	text-align: center; 
+}
+
+.invite {
+	width: 1200px;
+
+	background-color: #c39b96;
+	background-image: url("../img/bg-index.jpg");
+	background-position: top center;
+  	background-repeat: no-repeat;
+}
+
+.invite-image {
+	text-align: center;
+}
+
+.reasons {
+	text-align: center;
+}
+
+.reasons p:nth-child(3n) {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.real-town {
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+	height: 256px;
+	color: #ffffff;
+	text-align: center;
+
+	background-color: #81b3d2;
+
+	float: left;
+}
+
+.real-town h3 {
+	font-size: 21px
+	line-height: 26px;
+}
+
+.feature-number {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.feature-description {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.city-feature {
+	text-align: center;
+}
+
+.city-feature p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.housing {
+	float: left;
+}
+
+.food {
+	float: left;
+}
+
+.souvenirs {
+	float: right;
+}
+
+.features-rest {
+	list-style: none;
+
+	text-align: center;
+
+	background-color: #eeeeee;
+}
+
+.features-rest p {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.reservation {
+	text-align: center;
+}
+
+.reservation b {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.reservation p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.reservation-button {
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	width: 568px;
+	height: 86px;
+
+	background-color: #766357;
+}
+
+.reservation-button:hover,
+.reservation-button:focus {
+	background-color: #604e43;
+}
+
+.reservation-button:active {
+	color: rgba(255, 255, 255, 0.3);
+
+	background-color: #503e33;
+}
+
+.sedona-tag {
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.social li {
+	list-style: none;
+
+	width: 46px;
+	height: 48px;
+
+	text-align: center;
+	vertical-align: center;
+
+	background-color: #81b3d2;
+
+	display: inline-block;
+}
+
+.social a {
+	display: block;
+	text-align: center;
+	vertical-align: center;
+}
+
+.website {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.modal-search {
+	width: 568px;
+	height: 395px;
+	margin: auto;
+}
+
+.modal-search p {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.modal-search input {
+	width: 346px;
+	height: 38px;
+
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+
+	background-color: #f2f2f2;
+
+	border: 0px solid white;
+}
+
+.modal-button {
+	width: 458px;
+	height: 58px;
+
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	background-color: #81b3d2;
 }
 
