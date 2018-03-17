@@ -27,46 +27,49 @@
       <section class='filters'>
         <form class='filter' method='get' action='https://echo.htmlacademy.ru'>
           <h2 class='visually-hidden'>Фильтры</h2>
-          <fieldset class='filter-structure'>
+          <fieldset>
             <legend>Инфраструктура:</legend>
               <ul>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='pool' id='pool-option' checked>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='pool' id='pool-option' checked>
                   <label for='pool-option'>Бассейн</label>
                 </li>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='parking' id='parking-option'>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='parking' id='parking-option'>
                   <label for='parking-option'>Парковка</label>
                 </li>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='wi-fi' id='wi-fi-option'>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='wi-fi' id='wi-fi-option'>
                   <label for='wi-fi-option'>Wi-Fi</label>
                 </li>
               </ul>
           </fieldset>
-          <fieldset class='filter-home'>
+          <fieldset>
             <legend>Тип жилья:</legend>
               <ul>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='hotel-option' id='hotel' checked>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='hotel-option' id='hotel' checked>
                   <label for='hotel'>Гостиница</label>
                 </li>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='motel-option' id='motel' checked>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='motel-option' id='motel' checked>
                   <label for='motel'>Мотель</label>
                 </li>
                 <li class='filter-option'>
-                  <input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='appartements-option' id='appartements' checked>
+                  <input class='filter-input filter-input-checkbox' type='checkbox' name='appartements-option' id='appartements' checked>
                   <label for='appartements'>Аппартаменты</label>
                 </li>
               </ul>
           </fieldset>
-          <fieldset class='filter-price'>
-            <label for='cost-start'>От:</label>
-            <input type='number' name='cost-per-day-start' id='cost-start' value='0'>
-            <label for='cost-finish'>До:</label>
-            <input type='number' name='cost-per-day-finish' id='cost-finish' value='3000' placeholder=''>
-            <input type='range' name='cost-scale' id='cost-scale' min='0' max='4000' value='3000'>
+          <fieldset>
+            <div class='range-scale'>
+              <legend>Стоимость в сутки (Р):</legend>
+              <label for='cost-start'>От:</label>
+              <input type='number' name='cost-per-day-start' id='cost-start' value='0'>
+              <label for='cost-finish'>До:</label>
+              <input type='number' name='cost-per-day-finish' id='cost-finish' value='3000' placeholder=''>
+              <input type='range' name='cost-scale' id='cost-scale' min='0' max='4000' value='3000'>
+            </div>
           </fieldset>
           <button class='price-button' type='submit'>Показать</button>
         </form>
@@ -76,11 +79,11 @@
           <span class='number-of-hotels'>Найдено:3</span>
           <span class='sorting'>Сортировка:</span>
           <ul class='parameter'>
-            <li><a class='parameter-button' href='#'>По цене</a></li>
+            <li><a class='parameter-button' href='#' active>По цене</a></li>
             <li><a class='parameter-button' href='#'>По типу</a></li>
             <li><a class='parameter-button' href='#'>По рейтингу</a></li>
           </ul>
-          <ul>
+          <ul class='order'>
             <li>
               <a class='result-up-button' href='#'><img src='img/icon-up-dir.svg' alt='По возрастанию'><span class='visually-hidden'>По возрастанию</span></a>
             </li>
@@ -104,7 +107,7 @@
             </p>
             <p class='hotels-buttons'>
               <button class='more-button'>Подробнее</button>
-              <a class='book-link'>Забронировать</a>
+              <a class='book-link' href='#'>Забронировать</a>
             </p>
             <p class='hotels-rating-item'>
               <span class='hotels-rating-stars'>*****</span>
