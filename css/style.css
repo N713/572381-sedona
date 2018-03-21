@@ -47,10 +47,8 @@ a {
 }
 
 .main-navigation li {
-	box-sizing: border-box;
 	width: 256px;
-	border: 2px solid pink;
-	padding: 22px 0px;
+	padding: 15px 0px;
 	margin: 0px;
 }
 
@@ -70,6 +68,10 @@ a {
 
 .welcome p {
 	text-align: center;
+}
+
+.welcome p:nth-of-type(1) {
+	margin-top: 0px;
 }
 
 .welcome-line {
@@ -648,6 +650,16 @@ ________________________________________________________________________________
 	color: #000000;
 }
 
+.main-header {
+	position: relative;
+}
+
+.sed-logo {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
 
 
 
