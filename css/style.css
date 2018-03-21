@@ -66,6 +66,14 @@ a {
 	background-image: url(../img/bg-index.jpg)
 }
 
+.welcome:after {
+	content: url('../img/mask.png');
+	bottom: 0px;
+	width: 100%;
+	margin: 0px;
+	padding-bottom: 23px;
+}
+
 .welcome p {
 	text-align: center;
 }
