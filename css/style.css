@@ -24,17 +24,29 @@ body {
 	background-repeat: no-repeat;
 }
 
-a {
-	color: #000000;
+header a,
+main a,
+footer a {
 	text-decoration: none;
+	color: #000000;
 }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .main-navigation ul {
@@ -60,10 +72,14 @@ a {
 .main-navigation a {
 	display: block;
 
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	vertical-align: middle;
+	text-align: center;
+
+	font-size: 14px;
+	line-height: 26px;
 }
 
 .main-navigation a:hover,
@@ -413,16 +429,32 @@ a {
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
+
+	display: block;
+
+	padding-top: 46px;
+	padding-bottom: 48px;
+}
+
+.social {
+	display: flex;
+
+	margin: 0px;
+	padding: 0px;
+	padding-top: 36px;
 }
 
 .social ul {
 	list-style: none;
+	margin: 36px auto;
 }
 
 .social li {
 	width: 46px;
 	height: 48px;
 
+	margin-right: 6px;
+
 	text-align: center;
 	vertical-align: center;
 
@@ -431,19 +463,12 @@ a {
 	display: inline-block;
 }
 
+.social li:last-child {
+	margin: 0px;
+}
+
 .social a {
-	width: 46px;
-	height: 48px;
-
-	text-align: center;
-	vertical-align: center;
-
-	background-color: #81b3d2;
-
-	display: inline-block;
-
-	text-align: center;
-	vertical-align: center;
+	display: block;
 }
 
 .social a:hover,
@@ -456,10 +481,62 @@ a {
 	opacity: 0,3;
 }
 
+.social-button {
+	display: block;
+}
+
+.twitter {
+	margin: 17px 14px 16px 15px;
+}
+
+.facebook {
+	margin: 13px 17px;
+}
+
+.youtube {
+	margin: 16px 13px;
+}
+
+.twitter:active,
+.facebook:active,
+.youtube:active {
+	opacity: 0.3;
+}
+
 footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-copyright {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+.website {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+
+	display: block;
+	margin-top: 54px;
+	margin-right: 8px;
+}
+
+.footer-copyright a {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 45px;
+}
+
+.footer-copyright img {
+	display: block;
 }
 
 .parameter a {
