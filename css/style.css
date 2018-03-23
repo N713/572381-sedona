@@ -8,13 +8,13 @@ body {
 
 	width: 1200px;
 
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 
 	border: none;
 
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
-	line-height: 21px;
+	line-height: 16px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
@@ -40,6 +40,7 @@ a {
 .main-navigation ul {
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
 	margin: 0px;
@@ -47,9 +48,22 @@ a {
 }
 
 .main-navigation li {
-	width: 256px;
-	padding: 15px 0px;
+	width: 239px;
+	padding: 0px;
 	margin: 0px;
+}
+
+.main-navigation li:nth-of-type(3) {
+	width: 244px;
+}
+
+.main-navigation a {
+	display: block;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	vertical-align: middle;
 }
 
 .main-navigation a:hover,
@@ -63,24 +77,33 @@ a {
 
 .welcome {
 	background-color: #dfebf4;
-	background-image: url(../img/bg-index.jpg)
+	background-image: url(../img/bg-index.jpg);
+	background-position: 0 -56px;
+	background-size: auto;
+	position: relative;
 }
 
-.welcome:after {
+.welcome::after {
 	content: url('../img/mask.png');
-	bottom: 0px;
 	width: 100%;
-	margin: 0px;
-	padding-bottom: 23px;
+}
+
+.welcome::before {
+	content: url('../img/layer-9.png');
+	position: absolute;
+	top: 144px;
+	margin-left: 472px;
 }
 
 .welcome p {
 	text-align: center;
+	margin: 0px;
 }
 
 .welcome p:nth-of-type(1) {
 	margin-top: 0px;
 }
+
 
 .welcome-line {
 	padding-top: 76px;
@@ -88,19 +111,16 @@ a {
 }
 
 .gorgeous-line {
-	padding-top: 0px;
+	padding-top: 11px;
 }
 
 .sedona-line {
-	padding-top: 50px;
+	padding-top: 52px;
 }
 
 .sucks-line {
 	padding-top: 56px;
-}
-
-.welcome-mask {
-	padding-top: 23px;
+	padding-bottom: 23px;
 }
 
 .features {
@@ -109,7 +129,10 @@ a {
 .reasons {
 	text-align: center;
 	margin: 0px;
-	padding-bottom: 56px;
+}
+
+.reasons p {
+	margin: 0px;
 }
 
 .reasons p:nth-child(2n) {
@@ -128,7 +151,9 @@ a {
 	color: #333333;
 
 	padding-top: 38px;
+	padding-bottom: 56px;
 }
+
 
 .real-town {
 	box-sizing: border-box;
@@ -312,6 +337,8 @@ a {
 }
 
 .modal-form {
+	display: flex;
+	flex-wrap: wrap;
 	border: none;
 	padding: 0px;
 	margin: 0px;
@@ -667,6 +694,7 @@ ________________________________________________________________________________
 	top: 0px;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 10;
 }
 
 
