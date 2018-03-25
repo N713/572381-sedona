@@ -60,20 +60,36 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation li {
+	box-sizing: border-box;
+
 	width: 239px;
-	padding: 0px;
+	padding: 15px 0px;
 	margin: 0px;
+}
+
+.main-navigation li:nth-of-type(1) {
+	padding-left: 9px;
+}
+
+.main-navigation li:nth-of-type(2) {
+	padding-left: 12px;
 }
 
 .main-navigation li:nth-of-type(3) {
 	width: 244px;
 }
 
+.main-navigation li:nth-of-type(4) {
+	padding-left: 9px;
+}
+
+.main-navigation li:nth-of-type(5) {
+	padding-left: 18px;
+}
+
 .main-navigation a {
 	display: block;
-
-	padding-top: 15px;
-	padding-bottom: 15px;
+	width: 219px;
 
 	vertical-align: middle;
 	text-align: center;
@@ -166,8 +182,8 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	color: #333333;
 
-	padding-top: 38px;
-	padding-bottom: 56px;
+	padding-top: 26px;
+	padding-bottom: 52px;
 }
 
 
@@ -191,10 +207,23 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 }
 
+.bridge {
+	padding: 45px 49px 65px 49px;
+}
+
+.features h3 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+}
+
 .real-town h3 {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
+
+	margin: 0px;
+	margin-bottom: 25px;
 }
 
 .real-town span {
@@ -207,11 +236,15 @@ input[type="radio"].visually-hidden {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-	width: 281px;
+	width: 305px;
+
+	margin: 0px;
+	margin-top: 20px;
 }
 
 .town-image {
 	background-image: url(../img/city.jpg);
+	background-position: 0 -80px; 
 
 	box-sizing: border-box;
 	width: 800px;
@@ -236,19 +269,38 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 }
 
+.town-item {
+	padding: 0px;
+	margin: 0px;
+}
+
+.town-item h3 {
+	margin-bottom: 0px;
+}
+
 .town-item img {
 	padding-top: 60px;
+	padding-bottom: 8px;
+}
+
+.town-item .gift {
+	padding-top: 56px;
 }
 
 .town-item p {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-	margin: 0 auto;
+
+	margin: 0px;
+	margin-top: 24px;
+
+	text-align: center;
 }
 
 .bridge-image {
 	background-image: url(../img/bridge.jpg);
+	background-position: 0px -77px;
 
 	box-sizing: border-box;
 	width: 800px;
@@ -264,14 +316,19 @@ input[type="radio"].visually-hidden {
 
 .last-features {
 	background-color: #eeeeee;
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 44px;
+}
+
+.features-rest {
+	margin: 0px;
+	margin-top: -1px;
+	padding: 0px;
+	padding-top: 46px;
 }
 
 .features-rest li {
 	box-sizing: border-box;
 	width: 400px;
-	height: 256px;
 
 	text-align: center;
 }
@@ -280,6 +337,9 @@ input[type="radio"].visually-hidden {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
+
+	margin-top: 0px;
+	margin-bottom: 23px;
 }
 
 .features-rest span {
@@ -292,13 +352,14 @@ input[type="radio"].visually-hidden {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-	
+
+	margin-top: 20px;
 }
 
 .reservation {
 	text-align: center;
 
-	padding-top: 57px;
+	padding-top: 52px;
 }
 
 .reservation b {
@@ -309,6 +370,7 @@ input[type="radio"].visually-hidden {
 
 .reservation p {
 	padding-top: 20px;
+	margin-top: 4px;
 
 	font-size: 14px;
 	line-height: 24px;
@@ -316,7 +378,7 @@ input[type="radio"].visually-hidden {
 }
 
 .reservation-button {
-	margin-top: 50px;
+	margin-top: 33px;
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
@@ -342,88 +404,10 @@ input[type="radio"].visually-hidden {
 }
 
 .map {
-	height: 493px;
+	height: 473px;
 	background-image: url(../img/map.png);
 }
 
-.modal-form,
-.modal-form p,
-.modal-close {
-	background-color: #ffffff;
-}
-
-.modal-form {
-	display: flex;
-	flex-wrap: wrap;
-	border: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-.modal-search {
-	background-color: #ffffff;
-	margin: 0px;
-	width: 568px;
-	height: 395px;
-	margin: auto;
-}
-
-.modal-search p {
-	font-size: 14px;
-	line-height: 26px;
-	font-weight: 700;
-	text-align: center;
-}
-
-.modal-search input {
-	width: 346px;
-	height: 38px;
-
-	font-size: 14px;
-	line-height: 26px;
-	font-weight: 700;
-	color: #000000;
-
-	background-color: #f2f2f2;
-
-	border: none;
-}
-
-
-.modal-button {
-	width: 458px;
-	height: 58px;
-
-	margin: 55px;
-
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
-
-	background-color: #81b3d2;
-
-	border: 0px solid white;
-}
-
-.range-scale input {
-	font-size: 14px;
-	line-height: 21px;
-	font-weight: 400;
-	color: #ffffff;
-
-	border: 2px solid #ffffff;
-	background-color: rgba(0, 0, 0, 0);
-	border-radius: 2px;
-}
-
-.modal-parameters {
-	width: 568px;
-
-	padding: 0px;
-	margin: 0px;
-}
 
 .sedona-tag {
 	font-size: 21px;
@@ -434,6 +418,8 @@ input[type="radio"].visually-hidden {
 
 	padding-top: 46px;
 	padding-bottom: 48px;
+	margin-left: 132px;
+	margin-right: 256px;
 }
 
 .social {
@@ -506,7 +492,6 @@ input[type="radio"].visually-hidden {
 footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 
 	margin: 0px;
 	padding: 0px;
@@ -525,18 +510,20 @@ footer {
 	font-weight: 400;
 
 	display: block;
-	margin-top: 54px;
+	margin-top: 47px;
 	margin-right: 8px;
+	margin-left: 228px;
 }
 
 .footer-copyright a {
 	margin: 0px;
 	padding: 0px;
-	padding-top: 45px;
+	padding-top: 38px;
 }
 
 .footer-copyright img {
 	display: block;
+	margin-right: 101px;
 }
 
 .parameter a {
