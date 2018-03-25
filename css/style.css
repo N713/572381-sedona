@@ -489,6 +489,84 @@ input[type="radio"].visually-hidden {
 	opacity: 0.3;
 }
 
+.modal {
+	color: #000000;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+.modal-find {
+	box-sizing: border-box;
+	width: 568px;
+	padding: 55px;
+}
+
+.modal-form {
+	margin: 0px;
+}
+
+.modal-form p {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 29px;
+}
+
+.button-find {
+	width: 458px;
+
+	border: none;
+	background-color: #81b3d2;
+
+	font-family: 'PT Sans', Arial, sans-serif;
+	text-transform: uppercase;
+
+	text-align: center;
+	padding: 0px;
+	margin-top: 21px;
+}
+
+.button-find h3 {
+	display: inline-block;
+
+	color: #ffffff;
+
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+
+	margin: 16px 0px;
+}
+
+.modal-form input[type='date'] {
+	box-sizing: border-box;
+	font: inherit;
+	width: 346px;
+	border: none;
+	background-color: #f2f2f2;
+	margin-left: 14px;
+	padding-left: 13px;
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+
+.modal-form input[type='number'] {
+	box-sizing: border-box;
+	font: inherit;
+	width: 38px;
+	border: none;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	margin-right: 16px;
+	margin-left: 35px;
+}
+
+.number-wrap {
+	display: flex;
+}
+
 footer {
 	display: flex;
 	flex-direction: row;

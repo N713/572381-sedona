@@ -129,7 +129,33 @@
 
       <section class='map'>
         <h2 class='visually-hidden'>Карта</h2>
+      
+
+      <section class='modal modal-find'>
+        <form class='modal-form' action='https://echo.htmlacademy.ru' method='post'>
+          <p>
+            <label for='in'>Дата въезда:</label>
+            <input type='date' id='in' name='date-in' value='2017-04-24'>
+          </p>
+          <p>
+            <label for='out'>Дата выезда:</label>
+            <input type='date' id='out' name='date-out' value='2017-07-04'>
+          </p>
+          <div class='number-wrap'>
+            <p>
+              <label for='adults'>Взрослые:</label>
+              <input type='number' id='adults' name='adults' value='2' placeholder=''>
+            </p>
+            <p>
+              <label for='kids'>Дети:</label>
+              <input type='number' id='kids' name='kids' value='0' placeholder=''>
+            </p>
+          </div>
+          <button class='button-find' type='submit'><h3>Найти</h3></button>
+        </form>
       </section>
+      </section>
+
     </main>
     <footer>
       <a class='sedona-tag' href='#'>#visitsedona</a>
