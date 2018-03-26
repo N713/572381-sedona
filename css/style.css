@@ -98,13 +98,17 @@ input[type="radio"].visually-hidden {
 	line-height: 26px;
 }
 
+.navigation-current {
+	color: #766357;
+}
+
 .main-navigation a:hover,
 .main-navigation a:focus {
 	color: #81b3d2;
 }
 
 .main-navigation a:active {
-	color: rgba(255, 255, 255, 0.3);
+	color: #b3b3b3;
 }
 
 .welcome {
@@ -472,15 +476,15 @@ input[type="radio"].visually-hidden {
 }
 
 .twitter {
-	margin: 17px 14px 16px 15px;
+	padding: 17px 14px 16px 15px;
 }
 
 .facebook {
-	margin: 13px 17px;
+	padding: 13px 17px;
 }
 
 .youtube {
-	margin: 16px 13px;
+	padding: 16px 13px;
 }
 
 .twitter:active,
@@ -584,6 +588,10 @@ footer {
 	padding: 0px;
 }
 
+.footer-hotels a {
+	height: 48px;
+}
+
 .footer-copyright {
 	display: flex;
 	margin: 0px;
@@ -603,9 +611,24 @@ footer {
 }
 
 .footer-copyright a {
+	width: 115px;
+
 	margin: 0px;
 	padding: 0px;
-	padding-top: 38px;
+	margin-top: 38px;
+	margin-bottom: 40px;
+	background-image: url(../img/logo-name.png);
+	background-repeat: no-repeat;
+	position: 0 39px; 
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+	background-image: url(../img/logo-name-hover.png);
+}
+
+.footer-copyright a:active {
+	background-image: url(../img/logo-name-active.png);
 }
 
 .footer-copyright img {
