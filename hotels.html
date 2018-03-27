@@ -22,11 +22,10 @@
     </header>
 
     <main class='container'>
-
       <section class='filters'>
         <form class='filter' method='get' action='https://echo.htmlacademy.ru'>
           <h2 class='visually-hidden'>Фильтры</h2>
-          <fieldset>
+          <div class='structure-wrapper'>
             <h3>Инфраструктура:</h3>
             <div class='filter-wrapper'>
               <ul>
@@ -44,8 +43,8 @@
                 </li>
               </ul>
             </div>
-          </fieldset>
-          <fieldset>
+          </div>
+          <div class='house-wrapper'>
             <h3>Тип жилья:</h3>
             <div class='filter-wrapper'>
               <ul>
@@ -62,10 +61,10 @@
                   <label for='appartements'>Аппартаменты</label>
                 </li>
               </ul>
-            <div class='filter-wrapper'>
-          </fieldset>
-          <fieldset>
-            <div class='filter-wrapper'>
+            </div class='filter-wrapper'>
+          </div>
+          <div class='range-wrapper'>
+            <div class='filter-wrapper-range'>
               <div class='range-scale'>
                 <h3>Стоимость в сутки (Р):</h3>
                 <label for='cost-start'>От:</label>
@@ -75,27 +74,30 @@
                 <input type='range' name='cost-scale' id='cost-scale' min='0' max='4000' value='3000'>
               </div>
             </div>
-          </fieldset>
+          </div>
           <button class='price-button' type='submit'>Показать</button>
         </form>
       </section>
 
       <div class='result'>
-          <span class='number-of-hotels'>Найдено:3</span>
-          <span class='sorting'>Сортировка:</span>
-          <ul class='parameter'>
-            <li><a class='parameter-button' href='#' active>По цене</a></li>
-            <li><a class='parameter-button' href='#'>По типу</a></li>
-            <li><a class='parameter-button' href='#'>По рейтингу</a></li>
-          </ul>
-          <ul class='order'>
-            <li>
-              <a class='result-up-button' href='#'><img src='img/icon-up-dir.svg' alt='По возрастанию'><span class='visually-hidden'>По возрастанию</span></a>
-            </li>
-            <li>
-              <a class='result-down-button' href='#'><img src='img/icon-down-dir.svg' alt='По убыванию'><span class='visually-hidden'>По убыванию</span></a>
-            </li>
-          </ul>
+          <div><span class='number-of-hotels'>Найдено:3</span></div>
+          <div><span class='sorting'>Сортировка:</span>
+            <ul class='parameter'>
+              <li><a class='parameter-button blue' href='#'>По цене</span></a></li>
+              <li><a class='parameter-button' href='#'>По типу</a></li>
+              <li><a class='parameter-button' href='#'>По рейтингу</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class='order'>
+              <li>
+                <a class='result-up-button' href='#'><img src='img/icon-up-dir.png' alt='По возрастанию'><span class='visually-hidden'>По возрастанию</span></a>
+              </li>
+              <li>
+                <a class='result-down-button' href='#'><img src='img/icon-down-dir1.png' alt='По убыванию'><span class='visually-hidden'>По убыванию</span></a>
+              </li>
+            </ul>
+          </div>
       </div>
 
       <section class='hotels'>
