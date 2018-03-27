@@ -576,6 +576,25 @@ input[type="radio"].visually-hidden {
 	margin-left: 35px;
 }
 
+.adults-number,
+.kids-number {
+	position: relative;
+}
+
+.adults-number::before {
+	content: url('../img/minus.png');
+	position: absolute;
+	left: 125px;
+	top: 18px;
+}
+
+.kids-number::before {
+	content: url('../img/minus.png');
+	position: absolute;
+	right: 88px;
+	top: 18px;
+}
+
 .number-wrap {
 	display: flex;
 	justify-content: space-between;
