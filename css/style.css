@@ -412,6 +412,11 @@ input[type="radio"].visually-hidden {
 	background-image: url(../img/map.png);
 }
 
+.tag {
+	box-sizing: border-box;
+	width: 400px;
+}
+
 
 .sedona-tag {
 	font-size: 21px;
@@ -419,17 +424,19 @@ input[type="radio"].visually-hidden {
 	text-transform: uppercase;
 
 	display: block;
-
+	
 	margin-top: 46px;
 	margin-bottom: 48px;
-	margin-left: 132px;
-	margin-right: 256px;
+
+	text-align: center;
 }
+
+
 
 .social {
 	display: flex;
 
-	margin: 0px;
+	margin: 0px auto;
 	padding: 0px;
 	padding-top: 36px;
 }
@@ -595,6 +602,59 @@ input[type="radio"].visually-hidden {
 	top: 18px;
 }
 
+.adults-number::after,
+.kids-number::after {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/plus.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.check-in,
+.check-out {
+	position: relative;
+}
+
+.check-in::after {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/calendar.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	right: 0px;
+}
+
+.check-out::after {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/calendar.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
 .number-wrap {
 	display: flex;
 	justify-content: space-between;
@@ -618,10 +678,11 @@ footer {
 }
 
 .footer-copyright {
+	box-sizing: border-box;
 	display: flex;
 	margin: 0px;
-	padding: 0px;
-	width: auto;
+	padding: 0px 100px;
+	width: 400px;
 }
 
 .website {
@@ -632,7 +693,7 @@ footer {
 	display: block;
 	margin-top: 47px;
 	margin-right: 8px;
-	margin-left: 228px;
+	/*margin-left: 228px;*/
 }
 
 .footer-copyright a {
