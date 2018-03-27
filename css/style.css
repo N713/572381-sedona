@@ -119,9 +119,9 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 
-.welcome::after {
-	content: url('../img/mask.png');
-	width: 100%;
+.mask {
+	height: 57px;
+	background-image: url('../img/mask.png');
 }
 
 .welcome::before {
@@ -592,14 +592,14 @@ input[type="radio"].visually-hidden {
 	content: url('../img/minus.png');
 	position: absolute;
 	left: 125px;
-	top: 18px;
+	top: 9px;
 }
 
 .kids-number::before {
 	content: url('../img/minus.png');
 	position: absolute;
 	right: 88px;
-	top: 18px;
+	top: 9px;
 }
 
 .adults-number::after,
