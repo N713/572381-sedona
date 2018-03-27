@@ -127,7 +127,7 @@ input[type="radio"].visually-hidden {
 .welcome::before {
 	content: url('../img/layer-9.png');
 	position: absolute;
-	top: 144px;
+	top: 134px;
 	margin-left: 472px;
 }
 
@@ -147,16 +147,16 @@ input[type="radio"].visually-hidden {
 }
 
 .gorgeous-line {
-	padding-top: 11px;
+	padding-top: 9px;
 }
 
 .sedona-line {
-	padding-top: 52px;
+	padding-top: 49px;
 }
 
 .sucks-line {
-	padding-top: 56px;
-	padding-bottom: 23px;
+	padding-top: 53px;
+	padding-bottom: 20px;
 }
 
 .features {
