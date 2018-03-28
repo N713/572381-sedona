@@ -935,6 +935,7 @@ footer {
 	height: 27px;
 
 	padding: 0px;
+	margin-right: 4px;
 
 	font-size: 14px;
 	line-height: 21px;
@@ -1130,6 +1131,12 @@ footer {
 	padding: 0px;
 }
 
+.hotels-type {
+	box-sizing: border-box;
+	width: 110px;
+	margin-right: 0px;
+}
+
 .hotels-item {
 	display: flex;
 	flex-direction: row;
@@ -1160,7 +1167,7 @@ footer {
 
 .hotels-details span {
 	display: inline-block;
-	margin-right: 39px;
+	margin-right: 4px;
 }
 
 .hotels-buttons {
@@ -1234,6 +1241,21 @@ footer {
 	height: 23px;
 	border: none;
 }
+
+.filter input[type='checkbox']:disabled + .checkbox-indicator{
+	background-image: url('../img/blocked-passive.png');
+	width: 23px;
+	height: 23px;
+	border: none;
+}
+
+.filter input[type='checkbox']:checked:disabled + .checkbox-indicator{
+	background-image: url('../img/blocked-active.png');
+	width: 27px;
+	height: 23px;
+	border: none;
+}
+
 ____________________________________________________________________________________________________________________________________________________
 
 .invite-image p {
