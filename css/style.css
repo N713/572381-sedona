@@ -960,7 +960,7 @@ footer {
 .book-link {
 	box-sizing: border-box;
 
-	width: 120px;
+	width: 142px;
 	height: 27px;
 
 	font-size: 14px;
@@ -1077,14 +1077,19 @@ footer {
 }
 
 .up-button {
-	width: 11px;
-	height: 11px;
+	width: 17px;
+	height: 17px;
+	background-color: #ffffff;
 	background-image: url('../img/icon-up-dir.png');
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	border: none;
 }
 
 .up-button:hover,
 .up-button:focus {
 	background-image: url('../img/icon-up-dir-hover.png');
+	outline: 2px solid #81b3d2;
 }
 
 .up-button:active {
@@ -1092,14 +1097,19 @@ footer {
 }
 
 .down-button {
-	width: 11px;
-	height: 10px;
+	width: 17px;
+	height: 17px;
+	background-color: #ffffff;
 	background-image: url('../img/icon-down-dir.png');
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	border: none;
 }
 
 .down-button:hover,
 .down-button:focus {
 	background-image: url('../img/icon-down-dir-hover.png');
+	outline: 2px solid #81b3d2;
 }
 
 .down-button:active {
@@ -1195,11 +1205,36 @@ footer {
 	margin: 0px;
 }
 
+.filter label {
+	position: relative;
 
+	padding-left: 40px;
+	padding-top: 3px;
 
-__________________________________________________________________________________________________________________________________________________________
+	cursor: pointer;
+}
 
+.filter input[type='checkbox'] + .checkbox-indicator{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 23px;
+	height: 23px;
 
+	background-image: url('../img/checkbox-off.png');
+}
+
+.filter input[type='checkbox']:focus + .checkbox-indicator{
+	outline: 2px solid #81b3d2;
+}
+
+.filter input[type='checkbox']:checked + .checkbox-indicator{
+	background-image: url('../img/checkbox-on.png');
+	width: 27px;
+	height: 23px;
+	border: none;
+}
+____________________________________________________________________________________________________________________________________________________
 
 .invite-image p {
 	border: 1px solid black;
@@ -1229,9 +1264,6 @@ ________________________________________________________________________________
 .sedona-tag {
 	color: #000000;
 }
-
-
-
 
 .social ul,
 .filters ul,
