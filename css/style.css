@@ -466,6 +466,7 @@ input[type="radio"].visually-hidden {
 
 .social a {
 	display: block;
+	height: 48px;
 }
 
 .social a:hover,
@@ -583,27 +584,70 @@ input[type="radio"].visually-hidden {
 	margin-left: 35px;
 }
 
+.modal-form input[type='date']:focus {
+	background-color: #ffffff;
+	outline: 1px solid #e5e5e5;
+}
+
+.modal-form input[type='date']:hover {
+	background-color: #ebebeb;
+}
+
 .adults-number,
-.kids-number {
+.kids-number,
+.modal {
 	position: relative;
 }
 
-.adults-number::before {
-	content: url('../img/minus.png');
+.minus-button-adults {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/minus.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: none;
+
 	position: absolute;
-	left: 125px;
-	top: 9px;
+	left: 165px;
+	top: 189px;
 }
 
-.kids-number::before {
-	content: url('../img/minus.png');
-	position: absolute;
-	right: 88px;
-	top: 9px;
+.minus-button-adults:hover,
+.minus-button-adults:focus,
+.minus-button-kids:hover,
+.minus-button-kids:focus {
+	background-image: url('../img/minus-hover.png');
 }
 
-.adults-number::after,
-.kids-number::after {
+.minus-button-kids {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/minus.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: none;
+
+	position: absolute;
+	right: 133px;
+	top: 189px;
+}
+
+.minus-button-adults:active,
+.minus-button-kids:active {
+	background-image: url('../img/minus-active.png');
+}
+
+.plus-button-adults {
 	content: '';
 
 	width: 38px;
@@ -614,17 +658,44 @@ input[type="radio"].visually-hidden {
 	background-repeat: no-repeat;
 	background-position: center;
 
+	border: none;
+
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	left: 241px;
+	top: 189px;
 }
 
-.check-in,
-.check-out {
-	position: relative;
+.plus-button-kids {
+	content: '';
+
+	width: 38px;
+	height: 38px;
+
+	background-image: url('../img/plus.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: none;
+
+	position: absolute;
+	right: 59px;
+	top: 189px;
 }
 
-.check-in::after {
+.plus-button-adults:hover,
+.plus-button-adults:focus,
+.plus-button-kids:hover,
+.plus-button-kids:focus {
+	background-image: url('../img/plus-hover.png');
+}
+
+.plus-button-adults:active,
+.plus-button-kids:active {
+	background-image: url('../img/plus-active.png');
+}
+
+.check-in-button {
 	content: '';
 
 	width: 38px;
@@ -635,11 +706,26 @@ input[type="radio"].visually-hidden {
 	background-repeat: no-repeat;
 	background-position: center;
 
+	border: none;
+
 	position: absolute;
-	right: 0px;
+	right: 59px;
+	top: 55px;
 }
 
-.check-out::after {
+.check-in-button:hover,
+.check-in-button:focus,
+.check-out-button:hover,
+.check-out-button:focus {
+	background-image: url('../img/calendar-hover.png');
+}
+
+.check-in-button:active,
+.check-out-button:active {
+	background-image: url('../img/calendar-active.png');
+}
+
+.check-out-button {
 	content: '';
 
 	width: 38px;
@@ -650,9 +736,11 @@ input[type="radio"].visually-hidden {
 	background-repeat: no-repeat;
 	background-position: center;
 
+	border: none;
+
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 59px;
+	top: 122px;
 }
 
 .number-wrap {
