@@ -920,6 +920,20 @@ footer {
 	background-image: url(../img/background-hotels.jpg);
 }
 
+/*
+.filters {
+   padding: 0 70px;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #ffffff;
+   background-color: #527da7;
+   background-image: url(../img/background-hotels.jpg);
+}
+*/
+
 .filter {
 	position: relative;
 }
@@ -983,6 +997,10 @@ footer {
 .filter-wrapper {
 	box-sizing: border-box;
 	width: 239px;
+}
+
+.filter-wrapper ul {
+	margin-bottom: 9px;
 }
 
 .filter-wrapper li {
@@ -1253,7 +1271,7 @@ footer {
 .range-wrapper {
 	position: relative;
 	margin-left: 349px;
-	padding-top: 30px; 
+	padding-top: 26px; 
 }
 
 .filter-range {
@@ -1270,14 +1288,20 @@ footer {
 }
 
 .price-controls {
+	box-sizing: border-box;
 	position: relative;
-  	height: 36px;
+  	height: 38px;
   	margin-bottom: 20px;
 
   	font-size: 0;
 
   	border: 2px solid #ffffff;
   	border-radius: 2px;
+}
+
+.price-controls input[type='text'],
+.price-controls input[type='text'] {
+	padding: 0px;
 }
 
 .price-controls::after {
@@ -1308,11 +1332,16 @@ footer {
 .price-controls .min-price,
 .price-controls .max-price {
   	width: 90px;
-  	padding-left: 65px;
+  	height: 38px;
+  	margin-top: -2px;
+  	padding-left: 55px;
+  	padding-right: 10px;
+  	padding-top: 0px;
 }
 
 .price-controls input {
-  	width: 50px;
+  	width: 40px;
+  	height: 38px;
   	margin: 0;
 
   	color: inherit;
@@ -1381,6 +1410,12 @@ footer {
   	border: 2px solid #ffffff;
   	border-radius: 2px;
   	cursor: pointer;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+	background-color: #ffffff;
+	color: #000000;
 }
 ____________________________________________________________________________________________________________________________________________________
 
