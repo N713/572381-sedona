@@ -82,20 +82,22 @@
             </div>
           </div>
           <div class='range-wrapper'>
-            <div class='filter-wrapper-range'>
-              <div class='range-scale'>
-                <h3>Стоимость в сутки (Р):</h3>
-                <div class='cost-controls'>
-                  <label for='cost-start'>От:</label>
-                  <input type='number' name='cost-per-day-start' id='cost-start' value='0'>
-                  <label for='cost-finish'>До:</label>
-                  <input type='number' name='cost-per-day-finish' id='cost-finish' value='3000' placeholder=''>
+            <div class='filter-range'>
+              <div class='filter-range-title'>Стоимость в сутки (р):</div>
+              <div class='price-controls'>
+                <label class='min-price'>от <input type='text' name='min-price' value='0'></label>
+                <label class='max-price'>до <input type='text' name='max-price' value='3000'></label>
+              </div>
+              <div class='range-cotrols'>
+                <div class='scale'>
+                  <div class='bar'></div>
                 </div>
-                <input type='range' name='cost-scale' id='cost-scale' min='0' max='4000' value='3000'>
+                <div class='range-toggle range-toggle-min'></div>
+                <div class='range-toggle range-toggle-max'></div>
               </div>
             </div>
+            <button class='btn-transparent' type='submit'>Показать</button>
           </div>
-          <button class='price-button' type='submit'>Показать</button>
         </form>
       </section>
 
