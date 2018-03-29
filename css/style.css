@@ -830,6 +830,7 @@ footer {
 	line-height: 18px;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 
 	display: block;
 }
@@ -953,6 +954,8 @@ footer {
 
 	background-color: #81b3d2;
 	border: none;
+
+	cursor: pointer;
 }
 
 .more-button:hover,
@@ -982,6 +985,8 @@ footer {
 
 	background-color: #766357;
 	border: none;
+
+	cursor: pointer;
 }
 
 .book-link:hover,
@@ -1097,6 +1102,7 @@ footer {
 	background-repeat: no-repeat;
 	background-position: 3px 3px;
 	border: none;
+	cursor: pointer;
 }
 
 .up-button:hover,
@@ -1117,6 +1123,7 @@ footer {
 	background-repeat: no-repeat;
 	background-position: 3px 3px;
 	border: none;
+	cursor: pointer;
 }
 
 .down-button:hover,
@@ -1386,6 +1393,7 @@ footer {
 
 .range-toggle:hover {
   background: #1c4f80;
+  border: 9px solid #ffffff;
 }
 
 .range-toggle-min {
