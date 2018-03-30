@@ -18,7 +18,7 @@
           <li><a href='hotels.html'>Гостиницы</a></li>
         </ul>
       </nav>
-      <a href='#'><img class='sed-logo' src='img/sed-logo.png' width='138' height='70' alt='Седона логотип'></a>
+      <img class='sed-logo' src='img/sed-logo.png' width='138' height='70' alt='Седона логотип'>
     </header>
 
     <main>
@@ -36,7 +36,6 @@
         <p>
           <img class='sucks-line' src='img/sucks.png' width='296' height='80' alt='Because the Grand Canyon sucks'>
         </p>
-        <div class='mask'></div>
       </div>
       <section class='features'>
         <div class='reasons'>
@@ -48,14 +47,16 @@
             Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
           </p>
         </div>
-        <div class='real-town'>
-          <h3>Настоящий<br> городок</h3>
-          <span>– №1 –</span>
-          <p>
-            СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
-          </p>
+        <div class='wrapper-town'> 
+          <div class='real-town'>
+            <h3>Настоящий<br> городок</h3>
+            <span>– №1 –</span>
+            <p>
+              СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
+            </p>
+          </div>
+          <div class='town-image'></div>
         </div>
-        <div class='town-image'></div>
         <div class='town-features'>
           <ul class='town-item'>
             <li>
@@ -124,12 +125,12 @@
           Укажите предполагаемые даты поездки,<br> 
           и мы покажем вам лучшие предложения гостиниц в седоне
         </p>
-        <button class='reservation-button'>Поиск гостиницы в Седоне</button>
+        <button class='reservation-button' id='modalOpen'>Поиск гостиницы в Седоне</button>
       </section>
 
-      <section class='map'>
+      <section class='map' id='map'>
         <h2 class='visually-hidden'>Карта</h2>
-        <section class='modal modal-find'>
+        <section class='modal modal-find modal-active'>
           <form class='modal-form' action='https://echo.htmlacademy.ru' method='post'>
             <p class='check-in'>
               <label for='in'>Дата заезда:</label>
@@ -188,5 +189,8 @@
         <a href='https://htmlacademy.ru/intensive/htmlcss'></a>
       </p>
     </footer>
+    <script src='js/main.js'></script>
+    <script async defer src='https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap'
+    type='text/javascript'></script>
   </body>
 </html>

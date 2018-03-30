@@ -126,11 +126,7 @@ input[type="radio"].visually-hidden {
 	background-position: 0 -56px;
 	background-size: auto;
 	position: relative;
-}
-
-.mask {
-	height: 57px;
-	background-image: url('../img/mask.png');
+	padding-bottom: 64px;
 }
 
 .welcome::before {
@@ -139,6 +135,17 @@ input[type="radio"].visually-hidden {
 	top: 134px;
 	margin-left: 472px;
 }
+
+.welcome:after{
+	content: '';
+	width: 100%;
+ 	height: 57px;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-image: url('../img/mask.png');
+}
+
 
 .welcome p {
 	text-align: center;
@@ -265,8 +272,6 @@ input[type="radio"].visually-hidden {
 	        box-sizing: border-box;
 	width: 800px;
 	height: 256px;
-
-	margin-left: 400px;
 }
 
 .town-features ul,
@@ -339,6 +344,13 @@ input[type="radio"].visually-hidden {
 	-webkit-box-direction: reverse;
 	    -ms-flex-direction: row-reverse;
 	        flex-direction: row-reverse;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.wrapper-town {
+	display: flex;
+	flex-direction: row;
 	border-top: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 }
@@ -541,6 +553,16 @@ input[type="radio"].visually-hidden {
 	        box-sizing: border-box;
 	width: 568px;
 	padding: 55px;
+	opacity: 0;
+ 	visibility: hidden;
+ 	max-height: 0px;
+ 	transition: .4s;
+}
+
+.modal-active {
+	opacity: 1;
+ 	visibility: visible;
+ 	max-height: max-content;
 }
 
 .modal-form {
