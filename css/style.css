@@ -450,6 +450,11 @@ input[type="radio"].visually-hidden {
 	background-image: url(../img/map.png);
 }
 
+#map {
+	height: 473px;
+	width: 100%;
+}
+
 .tag {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
