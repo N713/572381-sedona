@@ -499,7 +499,6 @@ input[type="radio"].visually-hidden {
 	margin-right: 6px;
 
 	text-align: center;
-	vertical-align: center;
 
 	background-color: #81b3d2;
 
@@ -522,7 +521,7 @@ input[type="radio"].visually-hidden {
 
 .social a:active {
 	background-color: #5496bd;
-	opacity: 0,3;
+	opacity: 0.3;
 }
 
 .social-button {
@@ -864,7 +863,6 @@ footer {
 	margin-bottom: 40px;
 	background-image: url(../img/logo-name.png);
 	background-repeat: no-repeat;
-	position: 0 39px; 
 }
 
 .footer-copyright a:hover,
@@ -1057,7 +1055,8 @@ footer {
 	color: #ffffff;
 	text-transform: uppercase;
 
-	padding: 7px auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
 
 	background-color: #766357;
 	border: none;
