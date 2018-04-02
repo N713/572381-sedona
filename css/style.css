@@ -326,11 +326,13 @@ input[type="radio"].visually-hidden {
 
 
 .town-item p {
+	width: 285px;
+
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
 
-	margin: 0px;
+	margin: 0px auto;
 	margin-top: 24px;
 
 	text-align: center;
