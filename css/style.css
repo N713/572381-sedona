@@ -806,7 +806,9 @@ footer {
 	display: -ms-flexbox;
 	display: flex;
 	margin: 0px;
-	padding: 0px 100px;
+	padding: 0px;
+	padding-left: 102px;
+	padding-right: 98px;
 	width: 400px;
 }
 
@@ -984,8 +986,7 @@ footer {
 }
 
 .book-link {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	vertical-align: middle;
 	width: 142px;
 	height: 27px;
 	font-size: 14px;
@@ -993,11 +994,10 @@ footer {
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
-	padding-top: 7px;
-	padding-bottom: 7px;
 	background-color: #766357;
 	border: none;
 	cursor: pointer;
+	margin-top: -2px;
 }
 
 .book-link:hover,
@@ -1075,21 +1075,22 @@ footer {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding-top: 35px;
+	padding-top: 37px;
 	margin-left: 49px;
 	width: 450px;
 }
 
 .result div:nth-of-type(3) {
 	width: 531px;
-	padding-top: 39px;
-	padding-right: 73px; 
+	padding-top: 38px;
+	padding-right: 71px; 
 }
 
 .result {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	margin-top: -2px;
 }
 
 .result ul {
@@ -1133,6 +1134,10 @@ footer {
 
 .order li {
 	margin-left: 13px;
+}
+
+.order li:last-child {
+	margin-left: 5px;
 }
 
 .up-button {
@@ -1182,6 +1187,8 @@ footer {
 }
 
 .number-of-hotels {
+	width: 120px;
+	margin-right: 0px;
 	margin-top: 31px;
 	margin-bottom: 31px;
 }
@@ -1216,19 +1223,19 @@ footer {
 .hotels-item img {
 	margin-left: 72px;
 	margin-bottom: 30px;
-	margin-top: 28px;
+	margin-top: 30px;
 }
 
 .hotels-wrapper h3 {
+	width: 228px;
 	font-size: 21px;
-
 	margin: 0px;
 	margin-top: 24px;
 	margin-left: 30px;
 }
 
 .hotels-details {
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-bottom: 0px;
 	margin-left: 30px;
 }
@@ -1240,7 +1247,7 @@ footer {
 
 .hotels-buttons {
 	margin-left: 30px;
-	margin-top: 15px;
+	margin-top: 14px;
 	padding: 0px; 
 }
 
@@ -1258,8 +1265,8 @@ footer {
 	vertical-align: middle;
 	padding-top: 5px;
 	padding-bottom: 6px;
-	padding-left: 13px;
-	padding-right: 13px;
+	padding-left: 16px;
+	padding-right: 10px;
 	right: 73px;
 	bottom: 30px;
 	background-color: #f2f2f2;
@@ -1272,6 +1279,7 @@ footer {
 }
 
 .hotels-rating-stars {
+	text-align: right;
 	position: absolute;
 	right: 72px;
 	top: 29px;
