@@ -169,7 +169,8 @@ input[type="radio"].visually-hidden {
 }
 
 .reasons p {
-	margin: 0px;
+	width: 492px;
+	margin: 0px auto;
 }
 
 .reasons p:nth-child(2n) {
@@ -224,6 +225,11 @@ input[type="radio"].visually-hidden {
 	margin: 0px auto;
 	margin-bottom: 25px;
 	margin-top: 5px; 
+}
+
+.bridge h3 {
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .real-town span {
@@ -392,7 +398,7 @@ input[type="radio"].visually-hidden {
 
 .reservation {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 48px;
 }
 
 .reservation b {
@@ -402,7 +408,9 @@ input[type="radio"].visually-hidden {
 }
 
 .reservation p {
+	width: 435px;
 	padding-top: 20px;
+	margin: 0 auto;
 	margin-top: 4px;
 	font-size: 14px;
 	line-height: 24px;
@@ -410,7 +418,7 @@ input[type="radio"].visually-hidden {
 }
 
 .reservation-button {
-	margin-top: 33px;
+	margin-top: 47px;
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
@@ -1012,6 +1020,11 @@ footer {
 	margin-bottom: 9px;
 }
 
+.house-wrapper ul,
+.house-wrapper h3 {
+	margin-left: 15px;
+}
+
 .filter-wrapper li {
 	padding-bottom: 24px;
 }
@@ -1311,7 +1324,7 @@ footer {
 
 .range-wrapper {
 	position: relative;
-	margin-left: 349px;
+	margin-left: 333px;
 	padding-top: 26px; 
 }
 
@@ -1321,7 +1334,7 @@ footer {
 }
 
 .filter-range-title {
-  	margin-bottom: 9px;
+  	margin-bottom: 10px;
   	font-weight: 600;
   	font-size: 16px;
   	line-height: 21px;
@@ -1331,7 +1344,7 @@ footer {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	position: relative;
-  	height: 38px;
+  	height: 36px;
   	margin-bottom: 20px;
 
   	font-size: 0;
@@ -1368,12 +1381,17 @@ footer {
 
 .price-controls .min-price,
 .price-controls .max-price {
-  	width: 90px;
+  	width: 92px;
   	height: 38px;
   	margin-top: -2px;
   	padding-left: 55px;
   	padding-right: 10px;
   	padding-top: 0px;
+}
+
+.price-controls .min-price {
+	padding-left: 65px;
+  	padding-right: 0px;
 }
 
 .price-controls input {
@@ -1430,7 +1448,8 @@ footer {
 
 .btn-transparent {
   	display: block;
-  	margin: 0 auto;
+  	margin: 0;
+  	margin-left: 83px;
   	padding: 6px 35px;
   	font-size: 14px;
   	line-height: 20px;
