@@ -205,7 +205,7 @@ input[type="radio"].visually-hidden {
 }
 
 .bridge {
-	padding: 40px 49px 56px 49px;
+	padding: 40px 49px 38px 49px;
 }
 
 .features h3 {
@@ -594,20 +594,45 @@ input[type="radio"].visually-hidden {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	font: inherit;
-	width: 346px;
+	width: 340px;
 	border: none;
 	background-color: #f2f2f2;
 	padding-left: 13px;
 	padding-top: 9px;
 	padding-bottom: 8px;
+	height: 38px;
+}
+
+.check-in,
+.check-out {
+ 	position: relative;
+ 	height: 38px;
+}
+
+.check-in-button,
+.check-out-button{
+	content: '';
+	width: 38px;
+	height: 38px;
+	background-image: url('../img/calendar.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
 }
 
 .check-in input[type='date'] {
 	margin-left: 20px;
+	height: 38px;
 }
 
 .check-out input[type='date'] {
 	margin-left: 16px;
+	height: 38px;
 }
 
 .modal-form input[type='number'] {
@@ -623,6 +648,7 @@ input[type="radio"].visually-hidden {
 	padding-left: 16px;
 	margin-right: 0px;
 	margin-left: 35px;
+	height: 38px;
 }
 
 .modal-form input[type='date']:focus {
@@ -654,15 +680,9 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	left: 165px;
-	top: 189px;
-}
-
-.minus-button-adults:hover,
-.minus-button-adults:focus,
-.minus-button-kids:hover,
-.minus-button-kids:focus {
-	background-image: url('../img/minus-hover.png');
+	left: 112px;
+	top: 0px;
+	cursor: pointer;
 }
 
 .minus-button-kids {
@@ -675,8 +695,16 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	right: 131px;
-	top: 189px;
+	right: 75px;
+	top: 0px;
+	cursor: pointer;
+}
+
+.minus-button-adults:hover,
+.minus-button-adults:focus,
+.minus-button-kids:hover,
+.minus-button-kids:focus {
+	background-image: url('../img/minus-hover.png');
 }
 
 .minus-button-adults:active,
@@ -694,8 +722,9 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	left: 241px;
-	top: 189px;
+	left: 187px;
+	top: 0px;
+	cursor: pointer;
 }
 
 .plus-button-kids {
@@ -708,8 +737,9 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	right: 54px;
-	top: 189px;
+	right:0px;
+	top: 0px;
+	cursor: pointer;
 }
 
 .plus-button-adults:hover,
@@ -734,8 +764,8 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	right: 57px;
-	top: 55px;
+	right: 0px;
+	top: 0px;
 }
 
 .check-in-button:hover,
@@ -760,8 +790,8 @@ input[type="radio"].visually-hidden {
 	background-position: center;
 	border: none;
 	position: absolute;
-	right: 57px;
-	top: 122px;
+	right: 0px;
+	top: 0px;
 }
 
 .number-wrap {

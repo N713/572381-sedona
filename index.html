@@ -3,9 +3,9 @@
   <head>
   <meta charset='utf-8'>
   <title>HTML Academy: Седона</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic' rel='stylesheet'>
   <link href='css/normalize.css' rel='stylesheet'>
-  <link href="css/style.css" rel="stylesheet">
+  <link href='css/style.min.css' rel='stylesheet'>
   </head>
   <body>
     <header class='main-header'>
@@ -127,40 +127,40 @@
         <button class='reservation-button' id='modalOpen'>Поиск гостиницы в Седоне</button>
       </section>
 
-      <section class='map'>
+	  <section class='map'>
         <h2 class='visually-hidden'>Карта</h2>
         <section class='modal modal-find modal-active'>
           <form class='modal-form' action='https://echo.htmlacademy.ru' method='post'>
             <p class='check-in'>
               <label for='in'>Дата заезда:</label>
               <input type='date' id='in' name='date-in'>
+              <button class='check-in-button button-form'><span class='visually-hidden'>календарь</span></button>
             </p>
             <p class='check-out'>
               <label for='out'>Дата выезда:</label>
               <input type='date' id='out' name='date-out'>
+              <button class='check-out-button button-form'><span class='visually-hidden'>календарь</span></button>
             </p>
             <div class='number-wrap'>
               <p class='adults-number'>
                 <label for='adults'>Взрослые:</label>
                 <input type='number' id='adults' name='adults' value='2'>
+                <button class='minus-button-adults button-form'><span class='visually-hidden'>минус</span></button>
+                <button class='plus-button-adults button-form'><span class='visually-hidden'>плюс</span></button>
               </p>
               <p class='kids-number'>
                 <label for='kids'>Дети:</label>
                 <input type='number' id='kids' name='kids' value='0'>
+                <button class='minus-button-kids button-form'><span class='visually-hidden'>минус</span></button>
+                <button class='plus-button-kids button-form'><span class='visually-hidden'>плюс</span></button>
               </p>
             </div>
             <button class='button-find' type='submit'><span>Найти</span></button>
           </form>
-          <button class='minus-button-adults'><span class='visually-hidden'>минус</span></button>
-          <button class='plus-button-adults'><span class='visually-hidden'>плюс</span></button>
-          <button class='minus-button-kids'><span class='visually-hidden'>минус</span></button>
-          <button class='plus-button-kids'><span class='visually-hidden'>плюс</span></button>
-          <button class='check-in-button'><span class='visually-hidden'>календарь</span></button>
-          <button class='check-out-button'><span class='visually-hidden'>календарь</span></button>
         </section>
-      </section>
-
+     </section>
     </main>
+
     <footer>
       <div class='tag'><a class='sedona-tag' href='#'>#visitsedona</a></div>
       <ul class='social'>
