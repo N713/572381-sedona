@@ -163,9 +163,6 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 13px;
 }
 
-.features {
-}
-
 .reasons {
 	text-align: center;
 	margin: 0px;
@@ -208,20 +205,23 @@ input[type="radio"].visually-hidden {
 }
 
 .bridge {
-	padding: 45px 49px 56px 49px;
+	padding: 40px 49px 56px 49px;
 }
 
 .features h3 {
+	width: 120px;
+	margin: 0 auto;
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
 }
 
 .real-town h3 {
+	width: 152px;
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
-	margin: 0px;
+	margin: 0px auto;
 	margin-bottom: 25px;
 	margin-top: 5px; 
 }
@@ -244,7 +244,8 @@ input[type="radio"].visually-hidden {
 
 .bridge p {
 	width: 309px;
-	margin-top: 17px;
+	margin: 0 auto;
+	margin-top: 22px;
 }
 
 .town-image {
@@ -287,7 +288,12 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 0px;
 }
 
+.food h3 {
+	margin-top: 30px;
+}
+
 .town-item img {
+	margin: 0 auto;
 	margin-top: 60px;
 }
 
@@ -297,7 +303,7 @@ input[type="radio"].visually-hidden {
 }
 
 .gift-li h3 {
-	margin-top: 25px;
+	margin-top: 27px;
 }
 
 
@@ -334,6 +340,8 @@ input[type="radio"].visually-hidden {
 }
 
 .wrapper-town {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
 	border-top: 0px solid #eeeeee;
@@ -384,7 +392,7 @@ input[type="radio"].visually-hidden {
 
 .reservation {
 	text-align: center;
-	padding-top: 52px;
+	padding-top: 50px;
 }
 
 .reservation b {
