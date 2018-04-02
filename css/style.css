@@ -7,7 +7,6 @@ body {
 	padding: 0;
 	width: 1200px;
 	-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-
 	        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 	border: none;
 	font-family: "PT Sans", Arial, sans-serif;
@@ -274,7 +273,6 @@ input[type="radio"].visually-hidden {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-
 }
 
 .town-features li {
@@ -455,7 +453,6 @@ input[type="radio"].visually-hidden {
 	width: 400px;
 }
 
-
 .sedona-tag {
 	font-size: 21px;
 	line-height: 26px;
@@ -465,8 +462,6 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 48px;
 	text-align: center;
 }
-
-
 
 .social {
 	display: -webkit-box;
@@ -1354,9 +1349,7 @@ footer {
 	position: relative;
   	height: 36px;
   	margin-bottom: 20px;
-
   	font-size: 0;
-
   	border: 2px solid #ffffff;
   	border-radius: 2px;
 }
@@ -1442,8 +1435,8 @@ footer {
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
-  border: 9px solid #ffffff;
+  	background: #1c4f80;
+  	border: 9px solid #ffffff;
 }
 
 .range-toggle-min {
