@@ -212,10 +212,9 @@ input[type="radio"].visually-hidden {
 	        box-sizing: border-box;
 
 	width: 400px;
-	height: 256px;
 
-	padding-top: 46px;
-	padding-bottom: 64px;
+	padding-top: 42px;
+	padding-bottom: 58px;
 	padding-right: 59px;
 	padding-left: 60px;
 
@@ -245,6 +244,7 @@ input[type="radio"].visually-hidden {
 
 	margin: 0px;
 	margin-bottom: 25px;
+	margin-top: 5px; 
 }
 
 .real-town span {
@@ -297,7 +297,6 @@ input[type="radio"].visually-hidden {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	width: 400px;
-	height: 330px;
 	text-align: center;
 }
 
@@ -334,6 +333,7 @@ input[type="radio"].visually-hidden {
 
 	margin: 0px auto;
 	margin-top: 24px;
+	margin-bottom: 82px;
 
 	text-align: center;
 }
@@ -364,8 +364,8 @@ input[type="radio"].visually-hidden {
 .wrapper-town {
 	display: flex;
 	flex-direction: row;
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #eeeeee;
+	border-top: 0px solid #eeeeee;
+	border-bottom: 0px solid #eeeeee;
 }
 
 .last-features {
