@@ -5,22 +5,17 @@ html {
 body {
 	margin: 0 auto;
 	padding: 0;
-
 	width: 1200px;
-
 	-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
 
 	        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-
 	border: none;
-
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 16px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
-
 	background-color: #ffffff;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -36,21 +31,17 @@ footer a {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  -webkit-clip-path: inset(100%);
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
           clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .main-navigation ul {
@@ -70,7 +61,6 @@ input[type="radio"].visually-hidden {
 .main-navigation li {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-
 	width: 239px;
 	padding: 15px 0px;
 	margin: 0px;
@@ -99,10 +89,8 @@ input[type="radio"].visually-hidden {
 .main-navigation a {
 	display: block;
 	width: 219px;
-
 	vertical-align: middle;
 	text-align: center;
-
 	font-size: 14px;
 	line-height: 26px;
 }
@@ -192,7 +180,6 @@ input[type="radio"].visually-hidden {
 	line-height: 26px;
 	font-weight: 700;
 	color: #000000;
-
 	padding-top: 58px;
 }
 
@@ -201,7 +188,6 @@ input[type="radio"].visually-hidden {
 	line-height: 26px;
 	font-weight: 400;
 	color: #333333;
-
 	padding-top: 26px;
 	padding-bottom: 52px;
 }
@@ -210,25 +196,19 @@ input[type="radio"].visually-hidden {
 .real-town {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-
 	width: 400px;
-
 	padding-top: 42px;
 	padding-bottom: 58px;
 	padding-right: 59px;
 	padding-left: 60px;
-
-
 	background-color: #81b3d2;
 	color: #ffffff;
-
 	float: left;
-
 	text-align: center;
 }
 
 .bridge {
-	padding: 45px 49px 65px 49px;
+	padding: 45px 49px 56px 49px;
 }
 
 .features h3 {
@@ -241,7 +221,6 @@ input[type="radio"].visually-hidden {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
-
 	margin: 0px;
 	margin-bottom: 25px;
 	margin-top: 5px; 
@@ -259,21 +238,19 @@ input[type="radio"].visually-hidden {
 	line-height: 21px;
 	font-weight: 400;
 	width: 282px;
-
 	margin: 0px;
 	margin-top: 20px;
 }
 
 .bridge p {
 	width: 309px;
+	margin-top: 17px;
 }
 
 .town-image {
 	background-image: url(../img/city.jpg);
 	background-position: 0 -80px; 
-
 	-webkit-box-sizing: border-box; 
-
 	        box-sizing: border-box;
 	width: 800px;
 	height: 256px;
@@ -326,24 +303,19 @@ input[type="radio"].visually-hidden {
 
 .town-item p {
 	width: 285px;
-
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-
 	margin: 0px auto;
 	margin-top: 24px;
 	margin-bottom: 82px;
-
 	text-align: center;
 }
 
 .bridge-image {
 	background-image: url(../img/bridge.jpg);
 	background-position: 0px -77px;
-
 	-webkit-box-sizing: border-box;
-
 	        box-sizing: border-box;
 	width: 800px;
 	height: 256px;
@@ -370,21 +342,20 @@ input[type="radio"].visually-hidden {
 
 .last-features {
 	background-color: #eeeeee;
-	padding-bottom: 45px;
+	padding-bottom: 59px;
 }
 
 .features-rest {
 	margin: 0px;
 	margin-top: -1px;
 	padding: 0px;
-	padding-top: 46px;
+	padding-top: 49px;
 }
 
 .features-rest li {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	width: 400px;
-
 	text-align: center;
 }
 
@@ -392,7 +363,6 @@ input[type="radio"].visually-hidden {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 700;
-
 	margin-top: 0px;
 	margin-bottom: 25px;
 }
@@ -404,16 +374,16 @@ input[type="radio"].visually-hidden {
 }
 
 .features-rest p {
+	width: 265px;
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
-
+	margin: 0 auto;
 	margin-top: 20px;
 }
 
 .reservation {
 	text-align: center;
-
 	padding-top: 52px;
 }
 
@@ -426,7 +396,6 @@ input[type="radio"].visually-hidden {
 .reservation p {
 	padding-top: 20px;
 	margin-top: 4px;
-
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
@@ -438,12 +407,9 @@ input[type="radio"].visually-hidden {
 	line-height: 26px;
 	text-transform: uppercase;
 	color: #ffffff;
-
 	width: 568px;
 	height: 86px;
-
 	background-color: #766357;
-
 	border: 0px solid white;
 }
 
@@ -454,7 +420,6 @@ input[type="radio"].visually-hidden {
 
 .reservation-button:active {
 	color: rgba(255, 255, 255, 0.3);
-
 	background-color: #503e33;
 }
 
@@ -479,12 +444,9 @@ input[type="radio"].visually-hidden {
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
-
 	display: block;
-	
 	margin-top: 46px;
 	margin-bottom: 48px;
-
 	text-align: center;
 }
 
@@ -494,7 +456,6 @@ input[type="radio"].visually-hidden {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-
 	margin: 0px auto;
 	padding: 0px;
 	padding-top: 36px;
@@ -508,13 +469,9 @@ input[type="radio"].visually-hidden {
 .social li {
 	width: 46px;
 	height: 48px;
-
 	margin-right: 6px;
-
 	text-align: center;
-
 	background-color: #81b3d2;
-
 	display: inline-block;
 }
 
@@ -594,19 +551,14 @@ input[type="radio"].visually-hidden {
 
 .button-find {
 	width: 458px;
-
 	border: none;
 	background-color: #81b3d2;
-
 	font-family: 'PT Sans', Arial, sans-serif;
 	text-transform: uppercase;
 	color: #ffffff;
-
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
-
-
 	text-align: center;
 	padding: 0px;
 	margin-top: 25px;
@@ -683,17 +635,13 @@ input[type="radio"].visually-hidden {
 
 .minus-button-adults {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/minus.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	left: 165px;
 	top: 189px;
@@ -708,17 +656,13 @@ input[type="radio"].visually-hidden {
 
 .minus-button-kids {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/minus.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	right: 131px;
 	top: 189px;
@@ -731,17 +675,13 @@ input[type="radio"].visually-hidden {
 
 .plus-button-adults {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/plus.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	left: 241px;
 	top: 189px;
@@ -749,17 +689,13 @@ input[type="radio"].visually-hidden {
 
 .plus-button-kids {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/plus.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	right: 54px;
 	top: 189px;
@@ -779,17 +715,13 @@ input[type="radio"].visually-hidden {
 
 .check-in-button {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/calendar.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	right: 57px;
 	top: 55px;
@@ -809,17 +741,13 @@ input[type="radio"].visually-hidden {
 
 .check-out-button {
 	content: '';
-
 	width: 38px;
 	height: 38px;
-
 	background-image: url('../img/calendar.png');
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	border: none;
-
 	position: absolute;
 	right: 57px;
 	top: 122px;
@@ -847,7 +775,6 @@ footer {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-
 	margin: 0px;
 	padding: 0px;
 }
@@ -871,16 +798,13 @@ footer {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
-
 	display: block;
 	margin-top: 47px;
 	margin-right: 8px;
-	/*margin-left: 228px;*/
 }
 
 .footer-copyright a {
 	width: 115px;
-
 	margin: 0px;
 	padding: 0px;
 	margin-top: 38px;
@@ -924,7 +848,6 @@ footer {
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.3);
 	cursor: pointer;
-
 	display: block;
 }
 
@@ -964,13 +887,11 @@ footer {
 .price-button {
 	width: 133px;
 	height: 32px;
-
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
 	color: #ffffff;
 	text-transform: uppercase;
-
 	border: 2px solid #ffffff;
 	background-color: rgba(0, 0, 0, 0);
 	border-radius: 2px;
@@ -979,7 +900,6 @@ footer {
 .price-button:hover,
 .price-button:focus {
 	color: #000000;
-
 	background-color: #ffffff;
 }
 
@@ -1018,20 +938,6 @@ footer {
 	background-image: url(../img/background-hotels.jpg);
 }
 
-/*
-.filters {
-   padding: 0 70px;
-   display: flex;
-   justify-content: flex-start;
-   font-size: 14px;
-   line-height: 21px;
-   font-weight: 400;
-   color: #ffffff;
-   background-color: #527da7;
-   background-image: url(../img/background-hotels.jpg);
-}
-*/
-
 .filter {
 	position: relative;
 }
@@ -1039,19 +945,15 @@ footer {
 .more-button {
 	width: 110px;
 	height: 27px;
-
 	padding: 0px;
 	margin-right: 4px;
-
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
-
 	background-color: #81b3d2;
 	border: none;
-
 	cursor: pointer;
 }
 
@@ -1062,29 +964,23 @@ footer {
 
 .more-button:active {
 	color: rgba(255, 255, 255, 0.3);
-
 	background-color: #5496bd;
 }
 
 .book-link {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-
 	width: 142px;
 	height: 27px;
-
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
-
 	padding-top: 7px;
 	padding-bottom: 7px;
-
 	background-color: #766357;
 	border: none;
-
 	cursor: pointer;
 }
 
@@ -1178,11 +1074,8 @@ footer {
 .result ul {
 	margin: 0px;
 	padding: 0px;
-
 	display: -webkit-box;
-
 	display: -ms-flexbox;
-
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -1369,10 +1262,8 @@ footer {
 
 .filter label {
 	position: relative;
-
 	padding-left: 40px;
 	padding-top: 3px;
-
 	cursor: pointer;
 }
 
@@ -1382,7 +1273,6 @@ footer {
 	left: 0px;
 	width: 23px;
 	height: 23px;
-
 	background-image: url('../img/checkbox-off.png');
 }
 
@@ -1424,7 +1314,6 @@ footer {
 
 .filter-range-title {
   	margin-bottom: 9px;
-
   	font-weight: 600;
   	font-size: 16px;
   	line-height: 21px;
@@ -1451,29 +1340,21 @@ footer {
 .price-controls::after {
  	content: '';
  	position: absolute;
-
  	top: 50%;
  	left: 50%;
-
 	width: 2px;
  	height: 22px;
-
  	-webkit-transform: translate(-50%, -50%);
-
  	    -ms-transform: translate(-50%, -50%);
-
  	        transform: translate(-50%, -50%);
-
  	background: #ffffff;
 }
 
 .price-controls label {
   	display: inline-block;
-
   	font-size: 14px;
   	line-height: 38px;
   	vertical-align: top;
-
   	cursor: pointer;
 }
 
@@ -1491,40 +1372,33 @@ footer {
   	width: 40px;
   	height: 38px;
   	margin: 0;
-
   	color: inherit;
   	font: inherit;
-
   	background: none;
   	border: none;
 }
 
 .range-controls {
   	position: relative;
-
   	margin-bottom: 32px;
 }
 
 .scale {
   	height: 2px;
-
   	background: rgba(255, 255, 255, 0.3);
 }
 
 .bar {
   	width: 80%;
   	height: 2px;
-
   	background: #ffffff;
 }	
 
 .range-toggle {
 	position: absolute;
   	top: -9px;
-
   	width: 4px;
   	height: 4px;
-
   	background: #ababab;
   	border: 8px solid #ffffff;
   	border-radius: 50%;
@@ -1550,12 +1424,10 @@ footer {
   	display: block;
   	margin: 0 auto;
   	padding: 6px 35px;
-
   	font-size: 14px;
   	line-height: 20px;
   	color: #ffffff;
   	text-transform: uppercase;
-
   	background: transparent;
   	border: 2px solid #ffffff;
   	border-radius: 2px;
