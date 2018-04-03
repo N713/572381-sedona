@@ -484,6 +484,7 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	background-color: #81b3d2;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .social li:last-child {
@@ -577,6 +578,7 @@ input[type="radio"].visually-hidden {
 
 .button-find span {
 	display: inline-block;
+	vertical-align: middle;
 	margin: 16px 0px;
 }
 
@@ -1154,6 +1156,7 @@ footer {
 
 .result span {
 	display: inline-block;
+	vertical-align: middle;
 	margin-right: 40px;
 }
 
@@ -1267,6 +1270,7 @@ footer {
 
 .hotels-details span {
 	display: inline-block;
+	vertical-align: middle;
 	margin-right: 4px;
 }
 
@@ -1404,6 +1408,7 @@ footer {
 
 .price-controls label {
   	display: inline-block;
+  	vertical-align: middle;
   	font-size: 14px;
   	line-height: 38px;
   	vertical-align: top;
