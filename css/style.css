@@ -251,15 +251,17 @@ input[type="radio"].visually-hidden {
 	width: 309px;
 	margin: 0 auto;
 	margin-top: 22px;
+	margin-bottom: 21px;
 }
 
 .town-image {
 	background-image: url(../img/city.jpg);
-	background-position: 0 -80px; 
+	background-position: 0 -80px;
+	background-repeat: no-repeat;
+	background-size: cover; 
 	-webkit-box-sizing: border-box; 
 	        box-sizing: border-box;
 	width: 800px;
-	height: 256px;
 }
 
 .town-features ul,
@@ -325,10 +327,11 @@ input[type="radio"].visually-hidden {
 .bridge-image {
 	background-image: url(../img/bridge.jpg);
 	background-position: 0px -77px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	width: 800px;
-	height: 256px;
 }
 
 .wrapper {
@@ -592,7 +595,7 @@ input[type="radio"].visually-hidden {
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.modal-form input[type='date'] {
+.modal-form input[type='text'] {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	font: inherit;
@@ -603,6 +606,19 @@ input[type="radio"].visually-hidden {
 	padding-top: 9px;
 	padding-bottom: 8px;
 	height: 38px;
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+}
+::-moz-placeholder {
+  color: #000000;
+}
+:-ms-input-placeholder {
+  color: #000000;
+}
+:-moz-placeholder {
+  color: #000000;
 }
 
 .check-in,
@@ -627,12 +643,12 @@ input[type="radio"].visually-hidden {
 	cursor: pointer;
 }
 
-.check-in input[type='date'] {
+.check-in input[type='text'] {
 	margin-left: 20px;
 	height: 38px;
 }
 
-.check-out input[type='date'] {
+.check-out input[type='text'] {
 	margin-left: 16px;
 	height: 38px;
 }
@@ -653,12 +669,12 @@ input[type="radio"].visually-hidden {
 	height: 38px;
 }
 
-.modal-form input[type='date']:focus {
+.modal-form input[type='text']:focus {
 	background-color: #ffffff;
 	outline: 1px solid #e5e5e5;
 }
 
-.modal-form input[type='date']:hover {
+.modal-form input[type='text']:hover {
 	background-color: #ebebeb;
 }
 
@@ -1013,7 +1029,7 @@ footer {
 }
 
 .book-link {
-	vertical-align: middle;
+	vertical-align: bottom;
 	width: 142px;
 	height: 27px;
 	font-size: 14px;
@@ -1024,7 +1040,6 @@ footer {
 	background-color: #766357;
 	border: none;
 	cursor: pointer;
-	margin-top: -2px;
 }
 
 .book-link:hover,
@@ -1411,7 +1426,6 @@ footer {
   	vertical-align: middle;
   	font-size: 14px;
   	line-height: 38px;
-  	vertical-align: top;
   	cursor: pointer;
 }
 
