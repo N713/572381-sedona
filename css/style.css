@@ -1,3 +1,4 @@
+
 html {
 	background-color: #f2f2f2;
 }
@@ -615,16 +616,22 @@ input[type="radio"].visually-hidden {
 }
 
 ::-webkit-input-placeholder {
-  color: #000000;
+	text-transform: uppercase;
+    color: #000000;
 }
 ::-moz-placeholder {
-  color: #000000;
+  	color: #000000;
+  	text-transform: uppercase;
+  	opacity: 1;
 }
 :-ms-input-placeholder {
-  color: #000000;
+  	color: #000000;
+  	text-transform: uppercase;
 }
 :-moz-placeholder {
-  color: #000000;
+  	color: #000000;
+  	text-transform: uppercase;
+  	opacity: 1;
 }
 
 .check-in,
@@ -652,11 +659,13 @@ input[type="radio"].visually-hidden {
 .check-in input[type='text'] {
 	margin-left: 20px;
 	height: 38px;
+	color: #000000;
 }
 
 .check-out input[type='text'] {
 	margin-left: 16px;
 	height: 38px;
+	color: #000000;
 }
 
 .modal-form input[type='number'] {
@@ -825,11 +834,6 @@ input[type="radio"].visually-hidden {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-}
-
-input[placeholder] {
-	text-transform: uppercase;
-	color: #000000;
 }
 
 footer {
@@ -1317,6 +1321,7 @@ footer {
 	padding-bottom: 6px;
 	padding-left: 16px;
 	padding-right: 10px;
+	line-height: 27px;
 	right: 73px;
 	bottom: 30px;
 	background-color: #f2f2f2;
